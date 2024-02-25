@@ -1,0 +1,28 @@
+server:
+  port: 8080
+
+# datasource
+spring:
+  application:
+    name: STMS
+  datasource:
+    hikari:
+      maximum-pool-size: 4
+    url: jdbc:postgresql://localhost:5432/postgres?STMS
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: postgres
+    initialization-mode: always
+
+  jpa:
+    open-in-view: false
+    show-sql: true
+    hibernate.ddl-auto: update
+    generate-ddl: true
+    properties:
+      hibernate:
+        jdbc:
+          lob:
+            non_contextual_creation: true
+
+
