@@ -1,9 +1,9 @@
-package com.sandwichTruckSystem.STMS.Controllers;
+package com.sandwichTruckSystem.STMS.controller;
 
-import com.sandwichTruckSystem.STMS.Dtos.IngredientDto;
-import com.sandwichTruckSystem.STMS.Entities.Ingredient;
-import com.sandwichTruckSystem.STMS.Mappers.IngredientMapper;
-import com.sandwichTruckSystem.STMS.Services.IngredientService;
+import com.sandwichTruckSystem.STMS.dto.IngredientDto;
+import com.sandwichTruckSystem.STMS.entity.Ingredient;
+import com.sandwichTruckSystem.STMS.mappers.IngredientMapper;
+import com.sandwichTruckSystem.STMS.service.IngredientService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

@@ -1,6 +1,6 @@
-package com.sandwichTruckSystem.STMS.Entities;
+package com.sandwichTruckSystem.STMS.entity;
 
-import com.sandwichTruckSystem.STMS.Enums.RoleEnum;
+import com.sandwichTruckSystem.STMS.enums.RoleEnum;
 import lombok.Data;
 
 import javax.persistence.*;

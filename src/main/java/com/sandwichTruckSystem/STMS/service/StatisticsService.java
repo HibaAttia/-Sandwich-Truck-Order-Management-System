@@ -1,12 +1,12 @@
-package com.sandwichTruckSystem.STMS.Services;
+package com.sandwichTruckSystem.STMS.service;
 
-import com.sandwichTruckSystem.STMS.Dtos.IngredientDto;
-import com.sandwichTruckSystem.STMS.Dtos.OrderDto;
-import com.sandwichTruckSystem.STMS.Dtos.SandwichDto;
-import com.sandwichTruckSystem.STMS.Dtos.StatisticsDto;
-import com.sandwichTruckSystem.STMS.Entities.Order;
-import com.sandwichTruckSystem.STMS.Mappers.OrderMapper;
-import com.sandwichTruckSystem.STMS.Repositories.OrderRepository;
+import com.sandwichTruckSystem.STMS.dto.IngredientDto;
+import com.sandwichTruckSystem.STMS.dto.OrderDto;
+import com.sandwichTruckSystem.STMS.dto.SandwichDto;
+import com.sandwichTruckSystem.STMS.dto.StatisticsDto;
+import com.sandwichTruckSystem.STMS.entity.Order;
+import com.sandwichTruckSystem.STMS.mappers.OrderMapper;
+import com.sandwichTruckSystem.STMS.repository.OrderRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,6 +1,6 @@
-package com.sandwichTruckSystem.STMS.Repositories;
+package com.sandwichTruckSystem.STMS.repository;
 
-import com.sandwichTruckSystem.STMS.Entities.Order;
+import com.sandwichTruckSystem.STMS.entity.Order;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;

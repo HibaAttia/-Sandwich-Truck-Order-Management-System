@@ -12,7 +12,6 @@ spring:
     driver-class-name: org.postgresql.Driver
     username: postgres
     password: postgres
-    initialization-mode: always
 
   jpa:
     open-in-view: false

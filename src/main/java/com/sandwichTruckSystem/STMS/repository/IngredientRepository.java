@@ -1,11 +1,8 @@
-package com.sandwichTruckSystem.STMS.Repositories;
+package com.sandwichTruckSystem.STMS.repository;
 
-import com.sandwichTruckSystem.STMS.Entities.Ingredient;
+import com.sandwichTruckSystem.STMS.entity.Ingredient;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-
-import java.util.Optional;
-import java.util.UUID;
 
 @Repository
 public interface IngredientRepository extends JpaRepository<Ingredient, Long> {

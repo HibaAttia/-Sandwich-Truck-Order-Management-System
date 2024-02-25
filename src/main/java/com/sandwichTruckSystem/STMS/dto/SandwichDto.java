@@ -1,9 +1,7 @@
-package com.sandwichTruckSystem.STMS.Dtos;
+package com.sandwichTruckSystem.STMS.dto;
 
-import com.sandwichTruckSystem.STMS.Entities.Ingredient;
 import lombok.Data;
 
-import javax.persistence.OneToMany;
 import java.util.List;
 
 @Data

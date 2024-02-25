@@ -1,8 +1,8 @@
-package com.sandwichTruckSystem.STMS.Entities;
+package com.sandwichTruckSystem.STMS.entity;
 
 import javax.persistence.*;
 
-import com.sandwichTruckSystem.STMS.Enums.IngredientTypeEnum;
+import com.sandwichTruckSystem.STMS.enums.IngredientTypeEnum;
 import lombok.Data;
 
 @Entity

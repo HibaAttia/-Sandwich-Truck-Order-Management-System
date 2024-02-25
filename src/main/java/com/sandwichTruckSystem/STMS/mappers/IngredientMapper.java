@@ -1,7 +1,7 @@
-package com.sandwichTruckSystem.STMS.Mappers;
+package com.sandwichTruckSystem.STMS.mappers;
 
-import com.sandwichTruckSystem.STMS.Dtos.IngredientDto;
-import com.sandwichTruckSystem.STMS.Entities.Ingredient;
+import com.sandwichTruckSystem.STMS.dto.IngredientDto;
+import com.sandwichTruckSystem.STMS.entity.Ingredient;
 import org.mapstruct.Mapper;
 import org.mapstruct.NullValueCheckStrategy;
 

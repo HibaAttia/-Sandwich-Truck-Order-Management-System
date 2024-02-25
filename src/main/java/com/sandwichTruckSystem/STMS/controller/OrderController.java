@@ -1,12 +1,9 @@
-package com.sandwichTruckSystem.STMS.Controllers;
+package com.sandwichTruckSystem.STMS.controller;
 
-import com.sandwichTruckSystem.STMS.Dtos.IngredientDto;
-import com.sandwichTruckSystem.STMS.Dtos.OrderDto;
-import com.sandwichTruckSystem.STMS.Dtos.SandwichDto;
-import com.sandwichTruckSystem.STMS.Entities.Ingredient;
-import com.sandwichTruckSystem.STMS.Entities.Order;
-import com.sandwichTruckSystem.STMS.Mappers.OrderMapper;
-import com.sandwichTruckSystem.STMS.Services.OrderService;
+import com.sandwichTruckSystem.STMS.dto.OrderDto;
+import com.sandwichTruckSystem.STMS.entity.Order;
+import com.sandwichTruckSystem.STMS.mappers.OrderMapper;
+import com.sandwichTruckSystem.STMS.service.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -14,8 +11,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
-import java.util.List;
 
 @RestController
 @RequestMapping(value = "order")

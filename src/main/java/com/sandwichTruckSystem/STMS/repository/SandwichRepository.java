@@ -1,7 +1,6 @@
-package com.sandwichTruckSystem.STMS.Repositories;
+package com.sandwichTruckSystem.STMS.repository;
 
-import com.sandwichTruckSystem.STMS.Entities.Ingredient;
-import com.sandwichTruckSystem.STMS.Entities.Sandwich;
+import com.sandwichTruckSystem.STMS.entity.Sandwich;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

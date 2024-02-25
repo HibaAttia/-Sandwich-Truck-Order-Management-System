@@ -1,7 +1,7 @@
-package com.sandwichTruckSystem.STMS.Services;
+package com.sandwichTruckSystem.STMS.service;
 
-import com.sandwichTruckSystem.STMS.Entities.Ingredient;
-import com.sandwichTruckSystem.STMS.Repositories.IngredientRepository;
+import com.sandwichTruckSystem.STMS.entity.Ingredient;
+import com.sandwichTruckSystem.STMS.repository.IngredientRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

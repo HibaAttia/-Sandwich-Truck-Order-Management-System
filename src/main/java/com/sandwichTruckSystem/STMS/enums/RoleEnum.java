@@ -1,4 +1,4 @@
-package com.sandwichTruckSystem.STMS.Enums;
+package com.sandwichTruckSystem.STMS.enums;
 
 public enum RoleEnum {
 

@@ -1,6 +1,6 @@
-package com.sandwichTruckSystem.STMS.Dtos;
+package com.sandwichTruckSystem.STMS.dto;
 
-import com.sandwichTruckSystem.STMS.Enums.IngredientTypeEnum;
+import com.sandwichTruckSystem.STMS.enums.IngredientTypeEnum;
 import lombok.Data;
 
 @Data

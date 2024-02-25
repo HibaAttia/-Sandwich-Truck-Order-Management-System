@@ -1,4 +1,4 @@
-package com.sandwichTruckSystem.STMS.Dtos;
+package com.sandwichTruckSystem.STMS.dto;
 
 import lombok.Data;
 

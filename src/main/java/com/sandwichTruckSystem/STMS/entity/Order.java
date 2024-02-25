@@ -1,4 +1,4 @@
-package com.sandwichTruckSystem.STMS.Entities;
+package com.sandwichTruckSystem.STMS.entity;
 
 import lombok.Data;
 

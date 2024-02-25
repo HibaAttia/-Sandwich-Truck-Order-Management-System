@@ -1,8 +1,7 @@
-package com.sandwichTruckSystem.STMS.Controllers;
+package com.sandwichTruckSystem.STMS.controller;
 
-import com.sandwichTruckSystem.STMS.Dtos.StatisticsDto;
-import com.sandwichTruckSystem.STMS.Entities.Ingredient;
-import com.sandwichTruckSystem.STMS.Services.StatisticsService;
+import com.sandwichTruckSystem.STMS.dto.StatisticsDto;
+import com.sandwichTruckSystem.STMS.service.StatisticsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -12,8 +11,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.time.LocalDate;
-import java.util.List;
-import java.util.Locale;
 
 @RestController
 @RequestMapping(value = "statistics")
